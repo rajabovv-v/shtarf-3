@@ -1,0 +1,21 @@
+.header{
+
+    &-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        padding-top: 20px;
+    }
+    &-link{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        color: rgba(112, 52, 18, 1);
+
+        &:hover{
+            color:rgb(243, 91, 2) ;
+        }
+    }
+}

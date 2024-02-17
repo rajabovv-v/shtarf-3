@@ -1,0 +1,104 @@
+.footer{
+    background-color:rgba(8, 73, 53, 1);
+    width: 100%;
+    margin-top: 100px;
+
+
+    &-text{
+        padding-top: 65px;
+        padding-left: 72px;
+        
+        &-link{
+            font-family: 'Roboto' , sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+        &-h2{
+            font-family: 'Roboto' , sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 38px;
+            color: rgba(255, 255, 255, 1);
+
+        }
+        &-span{
+            font-family: 'Roboto' , sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 38px;
+            color:rgba(255, 255, 255, 0.72);
+        }
+    }
+    &-link{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 75px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+
+        &-one{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 6px;
+        }
+        &-lnk{
+            font-family: 'Roboto' , sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.72);
+            &:hover{
+                text-decoration: underline ;
+                color: white;
+            }
+        }
+    }
+    &-button{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        padding-left: 570px;
+        @media screen and (max-width:915px) {
+            padding-left: 500px;
+
+        }
+        @media screen and (max-width:715px) {
+            padding-left: 400px;
+
+        }
+        @media screen and (max-width:615px) {
+            padding-left: 300px;
+
+        }
+        @media screen and (max-width:515px) {
+            padding-left: 200px;
+
+        }
+        @media screen and (max-width:415px) {
+            padding-left: 100px;
+
+        }
+        &-link{
+            font-family: 'Roboto' , sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color:rgba(255, 255, 255, 1);
+
+            @media screen and (max-width:915px) {
+                font-size: 12px;
+            
+    
+            }
+
+        }
+    }
+}

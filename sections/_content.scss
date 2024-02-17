@@ -1,0 +1,97 @@
+.content{
+    &_row{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        @media screen and (max-width:915px) {
+            gap: 40px;
+            margin-top: 20px;
+       }
+    }
+
+ 
+    &-text{
+        // width: 571px;
+        height: 125px;
+        padding-left: 20px;
+
+
+    }
+    &-title{
+        font-family: 'Roboto' , sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 42px;
+        color: rgba(112, 52, 18, 1);
+        // width: 571px;
+
+        @media screen and (max-width:815px) {
+             font-size: 24px;
+             line-height: 24px;
+
+
+        }
+        @media screen and (max-width:615px) {
+            font-size: 16px;
+           line-height: 16px;
+            
+       }
+    }
+
+    &-one{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+
+        @media screen and (max-width:915px) {
+            margin-top: 20px;
+            gap: 40px;
+        }
+        @media screen and (max-width:815px) {
+            margin-top: 10px;
+            gap: 30px;
+            
+
+        }
+        @media screen and (max-width:615px) {
+            margin-top: 0px;
+            gap: 20px;
+
+
+        }
+ 
+        @media screen and (max-width:1100px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+    &-box1{
+
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        &-p1{
+            font-family: 'Roboto' , sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29px;
+            color: rgba(112, 52, 18, 1);
+            padding-left: 30px;
+
+        }
+        &-p2{
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: rgba(112, 52, 18, 0.72);
+
+            padding-left: 35px;
+        }
+    }
+}
